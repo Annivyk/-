@@ -10,4 +10,5 @@
  i = i + 1;
  }
  cout << f << endl;
+ cout<<"Value of PI:"<<PI<<endl;//使用宏
  }
