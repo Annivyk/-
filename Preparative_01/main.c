@@ -1,7 +1,8 @@
+ #include <stdio.h>
  int main()
  {
  int i, n, f;
- cin >> n;
+ scanf("%d", &n);
  i = 2;
  f = 1;
  while (i <= n)
@@ -9,6 +10,5 @@
  f = f * i;
  i = i + 1;
  }
- cout << f << endl;
- cout<<"Value of PI:"<<PI<<endl;//使用宏
+ printf("Factorial of %d is %d\n", n, f);
  }
